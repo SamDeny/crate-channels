@@ -1,0 +1,38 @@
+{
+    "name": "crate/channels",
+    "type": "crate-module",
+    "version": "0.1.0",
+    "description": "The official distribution channels module for the Crate CMS.",
+    "keywords": [
+        "crate",
+        "distribution",
+        "channel",
+        "channels",
+        "module",
+        "cms"
+    ],
+    "homepage": "https://crate.md/module/@crate/channels",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rat.md",
+            "email": "info@crate.md",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0.0",
+        "crate/core": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crate\\Channels\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
